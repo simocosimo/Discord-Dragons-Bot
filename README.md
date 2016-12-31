@@ -1,5 +1,5 @@
 # DnDiscord-Bot
-### A Dungeons & Discord bot
+### A simple, but useful, bot for Discord and Dungeons & Dragons.
 ------
 
 <b><a href="#overview">Overview</a></b>
