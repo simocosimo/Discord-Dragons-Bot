@@ -44,7 +44,7 @@ characteristic's value of your character that has to be summed to the dice roll.
 - The `!show` has two different uses. If utilized without any parameter it's going to show the characteristics of the user that typed it saved with the `!set` command. You can also *mention* a player after the command to see his saved values.
 <br>***Usage***:
 
-GIFQUI
+![Show screenshot](https://github.com/simocosimo/DnDiscord-Bot/blob/master/screenshots/show.gif)
 
 ------
 -  The `!init` command simply rolls a d20 and add the *initiative* value of the player previously saved with `!set`.
