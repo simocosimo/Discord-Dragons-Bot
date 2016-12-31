@@ -185,9 +185,11 @@ bot.on("message", msg => {
   }
 
   if(msg.content.startsWith(prefix + "atk")) {
-    // TODO: gestire attacchi con parametri:
-    // senza param: tutti e tre
-    // con param tipo 1, 2, 3 attacco con il 1°, 2° o 3°
+    // TODO: handle attacks rolls and parameters
+    // without params: all the 3 rolls for attacks
+    // with params: 1 -> only the attack with the first value stored
+    //              2 -> only the attack with the second value stored
+    //              3 -> only the attack with the third value stored
     var times = 3;
   }
 
@@ -207,4 +209,4 @@ bot.on('ready', () => {
   console.log('Im ready!!');
 });
 
-bot.login("MjY0NDkwNzE1MDgwMjk0NDEw.C0hVsQ.yzBoqhR9tVyrh_KdyLsu0vFUmtQ");
+bot.login("yourtokenhere");
