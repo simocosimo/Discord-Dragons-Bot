@@ -1,6 +1,6 @@
 var Discord = require("discord.js");
 const fs = require("fs");
-var fp = require("fs");
+const fp = require("fs");
 let data = JSON.parse(fs.readFileSync('./data.json', 'utf8'));
 var bot = new Discord.Client();
 var last_cmd;
@@ -198,6 +198,6 @@ bot.on('ready', () => {
 });
 
 fp.readFile('bot_token.txt', 'utf8', function(err, data) {
-  if(err) return console.log(err);
+  if(err) return console.log(err + "  sono io");
   bot.login(data);
 });
