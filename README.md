@@ -1,3 +1,8 @@
+<a href="https://github.com/simocosimo/Discord-Dragons-Bot">
+    <img src="https://github.com/simocosimo/Discord-Dragons-Bot/blob/master/screenshots/DiscordNDragons_logo.png" alt="Discord&Dragons Logo"
+         title="Discord&Dragons Logo" align="right" />
+</a>
+
 # Discord&Dragons Bot
 ### A simple, but useful, bot for Discord and Dungeons & Dragons.
 ------
