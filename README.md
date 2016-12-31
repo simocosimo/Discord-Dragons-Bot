@@ -35,9 +35,10 @@ GIFQUI
 - You can remember some of the most important values of your character. The `!set` command will do the job. You can memorize up to **3 attack bonus, the damage dice to roll, and the initiative**. Usage:
 
 ![Set screenshot](https://github.com/simocosimo/DnDiscord-Bot/blob/master/screenshots/set.png)
+
 ***Note***: if you don't have some of the values that the command needs, just type **0**.
 
-- The `!show` has two different uses. If utilized without any parameter it's going to show the characteristics of the user that typed it saved with the `!set` command. You can also *mention* a player after the command to see his saved values. 
+- The `!show` has two different uses. If utilized without any parameter it's going to show the characteristics of the user that typed it saved with the `!set` command. You can also *mention* a player after the command to see his saved values.
 ***Usage***:
 
 GIFQUI
