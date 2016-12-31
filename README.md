@@ -95,4 +95,4 @@ Remember: to let the bot do its job you have to let it ***open in the background
 
 ## Credits
 
-*Thanks to my friends @Alath, @Diego, @Aztek, @Arkholeon, @Stechy, @Giulia, @Max.*
+*Thanks to my friends @Alath, @Diego, @Aztek, @Arkholeon, @Stechy, @Giulia, @Max for helping me out!*
