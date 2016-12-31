@@ -1,5 +1,5 @@
 <a href="https://github.com/simocosimo/Discord-Dragons-Bot">
-    <img width="30%" height="30%" src="https://github.com/simocosimo/Discord-Dragons-Bot/blob/master/screenshots/DiscordNDragons_logo.png" alt="Discord&Dragons Logo"
+    <img width="20%" height="20%" src="https://github.com/simocosimo/Discord-Dragons-Bot/blob/master/screenshots/DiscordNDragons_logo.png" alt="Discord&Dragons Logo"
          title="Discord&Dragons Logo" align="right" />
 </a>
 
