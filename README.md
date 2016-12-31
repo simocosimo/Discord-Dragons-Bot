@@ -30,7 +30,7 @@ To let the bot execute commands, they have to be written in the form:
 characteristic's value of your character that has to be summed to the dice roll. Also, it's possible to simulate **multiple** rolls at once with the same settings using `xN` after the command (N is the number of rolls you want to do).
 <br>***Usage*** *(shown for the d20, usable also with all the other dices)*:
 
-GIFQUI
+![Roll gif](https://github.com/simocosimo/DnDiscord-Bot/blob/master/screenshots/dice_roll.gif)
 
 ------
 - You can remember some of the most important values of your character. The `!set` command will do the job. You can memorize up to **3 attack bonus, the damage dice to roll, and the initiative**.
