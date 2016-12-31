@@ -28,13 +28,13 @@ To let the bot execute commands, they have to be written in the form:
 
 - You can roll the *d100, d20, d12, d10, d8, d6, d4*. You can even specify the
 characteristic's value of your character that has to be summed to the dice roll. Also, it's possible to simulate **multiple** rolls at once with the same settings using `xN` after the command (N is the number of rolls you want to do).
-***Usage*** *(shown for the d20, usable also with all the other dices)*:
+<br>***Usage*** *(shown for the d20, usable also with all the other dices)*:
 
 GIFQUI
 
 ------
 - You can remember some of the most important values of your character. The `!set` command will do the job. You can memorize up to **3 attack bonus, the damage dice to roll, and the initiative**.
-***Usage***:
+<br>***Usage***:
 
 ![Set screenshot](https://github.com/simocosimo/DnDiscord-Bot/blob/master/screenshots/set.png)
 
@@ -42,19 +42,19 @@ GIFQUI
 
 ------
 - The `!show` has two different uses. If utilized without any parameter it's going to show the characteristics of the user that typed it saved with the `!set` command. You can also *mention* a player after the command to see his saved values.
-***Usage***:
+<br>***Usage***:
 
 GIFQUI
 
 ------
 -  The `!init` command simply rolls a d20 and add the *initiative* value of the player previously saved with `!set`.
-***Usage***:
+<br>***Usage***:
 
 ![Initiative screenshot](https://github.com/simocosimo/DnDiscord-Bot/blob/master/screenshots/init.png)
 
 ------
 - The `!dmg` command rolls the dice specified in the *damage* field of the player previously saved with `!set`.
-***Usage***:
+<br>***Usage***:
 
 ![Damage screenshot](https://github.com/simocosimo/DnDiscord-Bot/blob/master/screenshots/dmg.png)
 
