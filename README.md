@@ -1,4 +1,4 @@
-# DnDiscord-Bot
+# Discord&Dragons Bot
 ### A simple, but useful, bot for Discord and Dungeons & Dragons.
 ------
 
@@ -15,7 +15,7 @@
 
 ## Overview
 
-This is a simple bot for <a href="https://discordapp.com/">Discord</a> to roll some dices while playing **Dungeons & Dragons**. The aim is to use the VoIP software not only for communicating but also to manage the rolls of the dices of the players.
+This is a simple bot for <a href="https://discordapp.com/"><b>Discord</b></a> to roll some dices while playing **Dungeons & Dragons**. The aim is to use the VoIP software not only for communicating but also to manage the rolls of the dices of the players.
 
 *One software, both functions. It seems nice, doesn't it?*
 
