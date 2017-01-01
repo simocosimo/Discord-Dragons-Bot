@@ -171,12 +171,53 @@ bot.on("message", msg => {
   }
 
   if(msg.content.startsWith(prefix + "atk")) {
-    // TODO: handle attacks rolls and parameters
-    // without params: all the 3 rolls for attacks
-    // with params: 1 -> only the attack with the first value stored
-    //              2 -> only the attack with the second value stored
-    //              3 -> only the attack with the third value stored
-    var times = 3;
+    var times = 1; var atkn = 0; var rnd; var plus;
+    let args = msg.content.split(" ").slice(1);
+    var usr_id = msg.author.id; var usr = msg.author;
+    if(args != undefined && args.length != 0) atkn = Number(args[0]);
+    if(atkn == 0) {
+      rnd = Number(data[usr_id].atk1);
+      rnd += random(20);
+      msg.channel.sendMessage(
+        `${usr} rolled Attack${times} (d20+${data[usr_id].atk1}): ${rnd}`
+      );
+      times++;
+      rnd = Number(data[usr_id].atk2);
+      rnd += random(20);
+      msg.channel.sendMessage(
+        `${usr} rolled Attack${times} (d20+${data[usr_id].atk2}): ${rnd}`
+      );
+      times++;
+      rnd = Number(data[usr_id].atk3);
+      rnd += random(20);
+      msg.channel.sendMessage(
+        `${usr} rolled Attack${times} (d20+${data[usr_id].atk3}): ${rnd}`
+      );
+    } else {
+      switch(atkn) {
+        case 1:
+        rnd = Number(data[usr_id].atk1);
+        times = 1;
+        plus = data[usr_id].atk1;
+        break;
+
+        case 2:
+        rnd = Number(data[usr_id].atk3);
+        times = 2;
+        plus = data[usr_id].atk2;
+        break;
+
+        case 3:
+        rnd = Number(data[usr_id].atk3);
+        times = 3;
+        plus = data[usr_id].atk3;
+        break;
+      }
+      rnd += random(20);
+      msg.channel.sendMessage(
+        `${usr} rolled Attack${times} (d20+${plus}): ${rnd}`
+      );
+    }
   }
 
   if(msg.content.startsWith(prefix + "dmg")) {
@@ -198,6 +239,6 @@ bot.on('ready', () => {
 });
 
 fp.readFile('bot_token.txt', 'utf8', function(err, data) {
-  if(err) return console.log(err + "  sono io");
+  if(err) return console.log(err);
   bot.login(data);
 });
