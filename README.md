@@ -68,7 +68,7 @@ characteristic's value of your character that has to be summed to the dice roll.
 This is going to take a bit.
 Assuming you have <a href="https://nodejs.org/it/">Node.js</a> installed, first thing to do is to *clone* this repository:
 ```
-git clone https://github.com/simocosimo/DnDiscord-Bot
+git clone https://github.com/simocosimo/Discord-Dragons-Bot
 ```
 
 Then install `discord.js` in the folder where the `dnd_bot.js` file is:
@@ -86,7 +86,7 @@ Now you should have:
 
 To end the procedure just open the file called `bot_token.txt` and paste the Token in there.
 The script will look for that file, grab your Token from there and use it to authenticate itself!
-Note: the file should contain only the token. Other lines will not let the bot to login.
+***Note***: the file should contain only the token. Other lines will not let the bot to login.
 
 ## Executing
 
