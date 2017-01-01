@@ -86,7 +86,7 @@ Now you should have:
 
 To end the procedure just open the file called `bot_token.txt` and paste the Token in there.
 The script will look for that file, grab your Token from there and use it to authenticate itself!
-***Note***: the file should contain only the token. Other lines will not let the bot to login.
+<br>***Note***: the file should contain only the token. Other lines will not let the bot to login.
 
 ## Executing
 
