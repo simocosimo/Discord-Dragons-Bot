@@ -15,6 +15,8 @@
 |
 <b><a href="#executing">Executing</a></b>
 |
+<b><a href="#contributing">Contributing</a></b>
+|
 <b><a href="#credits">Credits</a></b>
 <br>
 
@@ -97,6 +99,11 @@ node dnd_bot.js
 
 When the bot says it's ready, you can play with it in the server chat!
 Remember: to let the bot do its job you have to let it ***open in the background***. The 24/7 service is something you have to figure out setting up a server or adopting similar solutions *(unless you want to never switch off your computer... that's also an option)*. Also the data are stored **locally** on the machine that runs the bot.
+
+## Contributing
+
+To contribute simply fork this project, clone it locally on your computer and start fixing bugs or adding features!
+If you are new to GitHub, you can follow <a href="https://guides.github.com/activities/contributing-to-open-source/#contributing">this guide</a>.
 
 ## Credits
 
